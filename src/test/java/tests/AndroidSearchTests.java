@@ -16,7 +16,7 @@ import static io.qameta.allure.Allure.step;
 public class AndroidSearchTests extends TestBase {
 
     @Test
-    @DisplayName("Тестирование поиска")
+    @DisplayName("Тестирование поисковой строки")
     void searchTest() {
         step("Type search", () -> {
             $(AppiumBy.accessibilityId("Search Wikipedia")).click();
