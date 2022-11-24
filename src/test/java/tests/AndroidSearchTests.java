@@ -1,6 +1,7 @@
 package tests;
 
 import io.appium.java_client.AppiumBy;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.w3c.dom.Text;
 
@@ -15,6 +16,7 @@ import static io.qameta.allure.Allure.step;
 public class AndroidSearchTests extends TestBase {
 
     @Test
+    @DisplayName("Тестирование поиска")
     void searchTest() {
         step("Type search", () -> {
             $(AppiumBy.accessibilityId("Search Wikipedia")).click();
@@ -26,6 +28,7 @@ public class AndroidSearchTests extends TestBase {
     }
 
     @Test
+    @DisplayName("Поиск статьи о МГТУ")
     void searchBMSTUTest() {
         step("Type search for BMSTU article", () -> {
             $(AppiumBy.accessibilityId("Search Wikipedia")).click();
