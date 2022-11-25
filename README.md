@@ -10,7 +10,7 @@
 - [Jenkins сборка](#window-Jenkins-сборка)
 - [Запуск тестов](#arrow_forward-Запуск-тестов)
 - [Allure отчет](#signal_strength-Allure-отчет)
-- [Видео прохождения теста Selenoid](#signal_strength-Видео-прохождения-теста-Selenoid)
+- [Видео прохождения теста](#signal_strength-Видео-прохождения-теста)
 
 ## :receipt: Тестовая модель
 
@@ -48,7 +48,7 @@ gradle clean test
 <a href=""><img src="images/screen/Allure.png" alt="Allure"/></a>
 </p>
 
-## :signal_strength: Видео прохождения теста Selenoid
+## :signal_strength: Видео прохождения теста
 <p align="center">
 <a href=""><img src="images/gif/Selenoid.gif" alt="Selenoid"/></a>
 </p>
