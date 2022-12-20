@@ -5,14 +5,14 @@
 
 ## :mag_right: Содержание:
 
-- [Тестовая модель](#receipt-Тестовая-модель)
+- [Тест кейсы](#receipt-Тест-кейсы)
 - [Стек](#wrench-Стек)
 - [Jenkins сборка](#window-Jenkins-сборка)
 - [Запуск тестов](#arrow_forward-Запуск-тестов)
 - [Allure отчет](#signal_strength-Allure-отчет)
-- [Видео прохождения теста Selenoid](#signal_strength-Видео-прохождения-теста-Selenoid)
+- [Видео прохождения теста](#signal_strength-Видео-прохождения-теста)
 
-## :receipt: Тестовая модель
+## :receipt: Тест кейсы
 
 - Тестирование поисковой строки
 
@@ -22,7 +22,6 @@
 <img width="6%" title="Idea" src="images/logo/Idea.svg">
 <img width="6%" title="Java" src="images/logo/Java.svg">
 <img width="6%" title="Idea" src="images/logo/Selenide.svg">
-<img width="6%" title="Java" src="images/logo/Selenoid.svg">
 <img width="6%" title="Idea" src="images/logo/browserstack.svg">
 <img width="6%" title="Allure Report" src="images/logo/Allure.svg">
 <img width="6%" title="Gradle" src="images/logo/Gradle.svg">
@@ -48,7 +47,7 @@ gradle clean test
 <a href=""><img src="images/screen/Allure.png" alt="Allure"/></a>
 </p>
 
-## :signal_strength: Видео прохождения теста Selenoid
+## :signal_strength: Видео прохождения теста
 <p align="center">
 <a href=""><img src="images/gif/Selenoid.gif" alt="Selenoid"/></a>
 </p>
