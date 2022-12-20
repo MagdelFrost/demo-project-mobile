@@ -11,7 +11,7 @@
 - [Запуск тестов](#arrow_forward-Запуск-тестов)
 - [Allure отчет](#signal_strength-Allure-отчет)
 - [Видео прохождения теста](#signal_strength-Видео-прохождения-теста)
-- [Отчёт в telegram](#Отчёт в telegram)
+- [Отчёт в telegram](#Отчёт-в-telegram)
 
 ## :receipt: Тест кейсы
 
