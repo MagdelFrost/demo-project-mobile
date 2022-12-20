@@ -41,7 +41,7 @@ public class AndroidSearchTests extends TestBase {
     }
 
     @Test
-    @DisplayName("Поиск статьи о МГТУ")
+    @DisplayName("Проверка вкладки история")
     void historyTest() {
         step("Type search GitHub", () -> {
             $(AppiumBy.accessibilityId("Search Wikipedia")).click();
