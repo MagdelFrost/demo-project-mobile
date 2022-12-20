@@ -11,10 +11,12 @@
 - [Запуск тестов](#arrow_forward-Запуск-тестов)
 - [Allure отчет](#signal_strength-Allure-отчет)
 - [Видео прохождения теста](#signal_strength-Видео-прохождения-теста)
+- [Отчёт в telegram](#Отчёт в telegram)
 
 ## :receipt: Тест кейсы
 
 - Тестирование поисковой строки
+- Тестирование вкладки история
 
 
 ## :wrench: Стек
@@ -51,5 +53,9 @@ gradle clean test
 <p align="center">
 <a href=""><img src="images/gif/Selenoid.gif" alt="Selenoid"/></a>
 </p>
+
+## :signal_strength: Отчёт в telegram
+
+<a href=""><img src="images/screen/Telegram.png" alt="Telegram"/></a>
 
 
