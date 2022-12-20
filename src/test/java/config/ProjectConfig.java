@@ -1,4 +1,4 @@
-package drivers;
+package config;
 
 import org.aeonbits.owner.Config;
 

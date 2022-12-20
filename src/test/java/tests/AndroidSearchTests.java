@@ -39,4 +39,31 @@ public class AndroidSearchTests extends TestBase {
                         .findBy(text("Bauman Moscow State Technical University"))
                         .should(exist));
     }
+
+    @Test
+    @DisplayName("Поиск статьи о МГТУ")
+    void historyTest() {
+        step("Type search GitHub", () -> {
+            $(AppiumBy.accessibilityId("Search Wikipedia")).click();
+            $(AppiumBy.id("org.wikipedia.alpha:id/search_src_text")).sendKeys("GitHub");
+        });
+        step("Go to article", () ->
+                $$(AppiumBy.id("org.wikipedia.alpha:id/page_list_item_title"))
+                        .findBy(text("GitHub"))
+                        .click());
+        step("Go back to main page", () -> {
+                $(AppiumBy.id("org.wikipedia.alpha:id/view_wiki_error_button")).click();
+        });
+        step("Go to history page", () -> {
+                $(AppiumBy.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout" +
+                        "/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout" +
+                        "/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout" +
+                        "/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup" +
+                        "/android.widget.FrameLayout[3]/android.widget.ImageView")).click();
+        });
+        step("Verify article found", () ->
+                $$(AppiumBy.id("org.wikipedia.alpha:id/page_list_item_title"))
+                        .findBy(text("GitHub"))
+                        .should(exist));
+    }
 }
